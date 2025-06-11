@@ -1,0 +1,77 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+h1, h2 {
+  font-weight: 600;
+}
+/* styles.css - Green theme for Hadees App */
+
+body {
+  background-color: #f8f9fa; /* light gray background */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #212529; /* dark text */
+}
+
+/* Navbar background: dark green */
+.navbar-custom {
+  background: #1b4d3e; /* Dark green */
+}
+
+/* Navbar links */
+.navbar-custom .navbar-brand, 
+.navbar-custom .nav-link {
+  color: #c6f2d6; /* Light green for contrast */
+}
+
+.navbar-custom .nav-link:hover {
+  color: #a8d5ba; /* Slightly darker light green */
+}
+
+/* Sidebar background */
+.sidebar {
+display:flex;
+flex-direction: column;
+  background: #1b4d3e; /* same dark green */
+  color: #c6f2d6;
+}
+
+/* Sidebar links */
+.sidebar a {
+  color: #a8d5ba;
+}
+
+.sidebar a:hover {
+  background-color: #145234; /* darker shade on hover */
+  color: #e6f4e1;
+}
+
+/* Table header background */
+.table-success {
+  background-color: #2e7d5a; /* medium dark green */
+  color: #fff;
+}
+
+/* Buttons */
+.btn-warning {
+  background-color: #3ba55c; /* green-yellow */
+  border-color: #2e7d5a;
+  color: white;
+}
+
+.btn-warning:hover {
+  background-color: #2e7d5a;
+  border-color: #1b4d3e;
+  color: white;
+}
+td:nth-child(2) {
+  max-width: 500px;
+  word-wrap: break-word;
+  white-space: normal;
+}
+.btn-save i {
+  transition: transform 0.3s ease;
+}
+.btn-save:hover i {
+  transform: rotate(360deg);
+}
+
